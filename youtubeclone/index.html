@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube</title>
+        
+</head>
+<body>
+
+    <header>
+    <div id="actionBar" class="actionBar">
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+      
+        <div class="header_Icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+    </div>
+    </div>
+</header>
+    <div id="videoSection" class="videoSection">
+        <video id ="vid" autoplay="autoplay" muted="muted" controls src="src/iphone.mp4" ></video>
+    </div>
+    <section class="middleBar">
+    <div id="videoInfo" class="videoInfo">
+        <span class="videoTitle">클론코딩따라하기</span>
+        <div class="videoViewAndDate"><span class="videoViews">25776회</span>
+            <span class="videoDate">2020. 3. 14</span></div>
+        
+    </div>
+    <div id = "menus" class="menus">
+      
+        <button id="btn_Up"><i class="fas fa-thumbs-up" ></i><span>1K</span> </button>
+        <button id="btn_Down"><i class="fas fa-thumbs-down"></i><span>1K</span></button>
+        <button id="btn_Share"><i class="fas fa-share"></i><span>공유</span></button>
+        <button id="btn_Save"><i class="fas fa-plus"></i><span>저장</span></button>
+        <button id="btn_Report"><i class="fab fa-font-awesome-flag"></i><span>신고</span></button>
+    </div>
+</section>
+    <div id ="createrInfo">
+        <img src ="" id="createrPhoto"/>
+        <div id="createrName">박진형</div>
+        <button id="btn_subscribe">SUBSCRIBE</button>
+    </div>
+    <div id ="relativeVideos">
+
+    </div>
+
+ 
+
+    <script src="index.js"></script>
+  
+  
+
+</body>
+</html>
